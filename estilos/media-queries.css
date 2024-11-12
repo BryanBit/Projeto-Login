@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* CONFIGURAÇÕES TABLET*/
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     #login {
         width: 80vw;
+        height: 320px;
     }
     #formulario {
         width: 70%;
@@ -21,11 +23,13 @@
     }
 }
 @media screen and (min-width: 992px) {
+    /* CONFIGURAÇÕES DESKTOP*/
     body {
         background-image: linear-gradient(to bottom, #49a09d, #5f2c82);
     }
     #login {
         width: 950px;
+        height: 380px;
     }
     #imagem {
         width: 50%;
@@ -41,5 +45,6 @@
     }
     #formulario p {
         font-size: 1.2em;
+        margin: 30px 0px;
     }
 }
